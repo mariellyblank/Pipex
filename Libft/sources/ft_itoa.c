@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mblank <mblank@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: miguelro <miguelro@students.42lisboa.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 13:33:34 by mblank            #+#    #+#             */
-/*   Updated: 2022/12/12 17:51:14 by mblank           ###   ########.fr       */
+/*   Updated: 2023/08/01 18:07:24 by miguelro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_itoa(int n)
 	if (n < 0)
 	{
 		str[0] = '-';
-		ft_lenregr(((long long)n * - 1), &str[1]);
+		ft_lenregr(((long long)n * -1), &str[1]);
 	}
 	else
 		ft_lenregr(n, str);

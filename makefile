@@ -26,7 +26,7 @@ SRC_PATH = ./sources
 
 OBJ_PATH = ./objects
 
-SRC_NAME = 	main.c libs.c utils.c \
+SRC_NAME = 	main.c utils.c \
 
 
 OBJS = $(addprefix $(OBJ_PATH)/, $(SRC_NAME:.c=.o))
